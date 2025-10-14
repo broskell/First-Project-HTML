@@ -1,9 +1,30 @@
-#aboutme{
+#aboutme{ 
     text-align: center;
     border-left: 7px solid black;
     margin-left: 10px solid black;
 }
 
-body{
-    background-image: url(grey-texture-background-7k4s7bsb6luq0aib.jpg);
+body {
+    background-image: url(ff9351f967b5419a798a2c1ac7b5b15b.gif); 
+    background-size: cover;
+    background-position: fixed;
+}
+
+body {
+    color: lightgray;
+}
+
+#edu {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.links {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
 }
