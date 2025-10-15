@@ -8,11 +8,10 @@ body {
     background-image: url(ff9351f967b5419a798a2c1ac7b5b15b.gif); 
     background-size: cover;
     background-position: fixed;
-}
-
-body {
     color: lightgray;
 }
+
+
 
 #edu {
     margin-left: auto;
