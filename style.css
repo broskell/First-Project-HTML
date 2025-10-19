@@ -1,29 +1,31 @@
 #aboutme{ 
+    display: flex;
+    justify-content: space-between;
     text-align: center;
-    border-left: 7px solid black;
-    margin-left: 10px solid black;
+    border-left: 7px solid lightgrey;
+    padding: 0px 50px 0px 50px;
 }
+
 
 body {
     background-image: url(ff9351f967b5419a798a2c1ac7b5b15b.gif); 
     background-size: cover;
-    background-position: fixed;
-    color: lightgray;
+    background-position: center fixed;
+    color: lightgrey;
 }
 
 
-
-#edu {
-    margin-left: auto;
-    margin-right: auto;
+.education_skills {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 100px;
 }
 
-.center {
+.aboutme {
     text-align: center;
 }
 
 .links {
     color: red;
-    text-decoration: none;
     font-weight: bold;
 }
