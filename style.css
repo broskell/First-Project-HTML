@@ -1,4 +1,4 @@
-#aboutme{ 
+#name_contact{ 
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -8,24 +8,41 @@
 
 
 body {
-    background-image: url(ff9351f967b5419a798a2c1ac7b5b15b.gif); 
+    background-color: #0d1117; 
     background-size: cover;
     background-position: center fixed;
     color: lightgrey;
+    font-size: large;
 }
 
+.education {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
 
-.education_skills {
+.education_and_skills {
     display: flex;
     justify-content: space-evenly;
-    padding-left: 100px;
+    align-items: center; 
+    font-size: 25px;
 }
+
+.skills-logos {
+    display: flex;
+    gap: 25px; 
+}
+
 
 .aboutme {
     text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 20px;
 }
 
 .links {
     color: red;
     font-weight: bold;
 }
+
