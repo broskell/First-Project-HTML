@@ -11,14 +11,13 @@ body {
     background-color: #0d1117; 
     background-size: cover;
     background-position: center fixed;
-    color: lightgrey;
+    color: whitesmoke;
     font-size: large;
 }
 
 .education {
     display: flex;
     justify-content: center;
-    font-size: 25px;
 }
 
 .education_and_skills {
@@ -41,8 +40,18 @@ body {
     font-size: 20px;
 }
 
-.links {
+.links{
     color: red;
     font-weight: bold;
+}
+
+.links:hover {
+    color: rgba(255, 0, 0, 0.7);
+    transition: color 0.7s ease;
+}
+
+#name:hover {
+    color: rgba(255, 255, 255, 0.8);
+    transition: color 0.7s ease;
 }
 
