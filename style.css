@@ -15,6 +15,15 @@ body {
     font-size: large;
 }
 
+a{
+    text-decoration: none;
+}
+
+p {
+    cursor: pointer;
+}
+
+
 .education {
     display: flex;
     justify-content: center;
@@ -40,6 +49,10 @@ body {
     font-size: 20px;
 }
 
+h2:hover {
+    text-decoration: underline;
+}
+
 .links{
     color: red;
     font-weight: bold;
@@ -50,8 +63,11 @@ body {
     transition: color 0.7s ease;
 }
 
-#name:hover {
-    color: rgba(255, 255, 255, 0.8);
-    transition: color 0.7s ease;
+#name {
+    color: lightgray;
 }
 
+#name:hover {
+    filter: brightness(20);
+    transition: all 1s;
+}
