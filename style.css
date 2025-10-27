@@ -4,6 +4,7 @@
     text-align: center;
     border-left: 7px solid lightgrey;
     padding: 0px 50px 0px 50px;
+    margin-bottom: 40px;
 }
 
 
@@ -27,6 +28,48 @@ p {
 .education {
     display: flex;
     justify-content: center;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    transition: all 0.4s ease;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+th {
+    background: darkgray;
+    color: white;
+    padding: 18px;
+    font-size: 1.15em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+td {
+    padding: 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 1.05em;
+}
+
+tr {
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+tr:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: scale(1.02);
 }
 
 .education_and_skills {
@@ -34,6 +77,11 @@ p {
     justify-content: space-evenly;
     align-items: center; 
     font-size: 25px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    transition: all 0.4s ease;
 }
 
 .skills-logos {
@@ -47,6 +95,11 @@ p {
     padding-left: 70px;
     padding-right: 70px;
     font-size: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    transition: all 0.4s ease;
 }
 
 h2:hover {
